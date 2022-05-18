@@ -1,5 +1,5 @@
 # Header
-Madelyn Ogorek,Langanki INET4021,5/2022
+Madelyn Ogorek INET4021,5/2022. This program is set-up to run using an apache Tomcat server.
 
 
 
