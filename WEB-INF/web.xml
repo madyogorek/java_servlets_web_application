@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+  version="4.0"
+  metadata-complete="true">
+
+    <description>
+      Servlets
+    </description>
+    <display-name>shopping</display-name>
+
+    <request-character-encoding>UTF-8</request-character-encoding>
+
+    <!-- Define servlets that are included in the example application -->
+
+    <servlet>
+      <servlet-name>Login</servlet-name>
+      <servlet-class>Login</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>Options</servlet-name>
+        <servlet-class>Options</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Add</servlet-name>
+        <servlet-class>Add</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Adder</servlet-name>
+        <servlet-class>Adder</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Remove</servlet-name>
+        <servlet-class>Remove</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Remover</servlet-name>
+        <servlet-class>Remover</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Transfer</servlet-name>
+        <servlet-class>Transfer</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Transferer</servlet-name>
+        <servlet-class>Transferer</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Sum</servlet-name>
+        <servlet-class>Sum</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Summer</servlet-name>
+        <servlet-class>Summer</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>History</servlet-name>
+        <servlet-class>History</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Historyer</servlet-name>
+        <servlet-class>Historyer</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Login</servlet-name>
+        <url-pattern>/Login</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>Options</servlet-name>
+        <url-pattern>/Options</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Add</servlet-name>
+        <url-pattern>/Add</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Adder</servlet-name>
+        <url-pattern>/Adder</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Remove</servlet-name>
+        <url-pattern>/Remove</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Remover</servlet-name>
+        <url-pattern>/Remover</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Transfer</servlet-name>
+        <url-pattern>/Transfer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Transferer</servlet-name>
+        <url-pattern>/Transferer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Sum</servlet-name>
+        <url-pattern>/Sum</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Summer</servlet-name>
+        <url-pattern>/Summer</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>History</servlet-name>
+        <url-pattern>/History</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Historyer</servlet-name>
+        <url-pattern>/Historyer</url-pattern>
+    </servlet-mapping>
+
+</web-app>
